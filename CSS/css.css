@@ -2,21 +2,24 @@
 
 body{
     font-family: "Montserrat";
-    background: linear-gradient(90deg , #f83076 0%, #ff7dad 100%);
+/*  background: linear-gradient(45deg , #051937 0%, #A8EB12 100%);
+ */ background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat:no-repeat ;
+    height: 100%;
 }
 h1{
-    color: #fff;
+    color: #fff; 
     text-align: center;
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 60px;
 }
 span{
     font-size:85px;
-    color: #9424F0;
+    color: #004d7a;
 }
 p{
     text-align: center;
-    color: #fff;
+    color:darkblue;
     font-size: 30px;
 }
 button{
@@ -28,14 +31,15 @@ button{
     background: transparent;
     border-radius: 10px;
     border: 0.1rem solid #1f1f1f;
-    padding: 10px 15px;
+    padding: 15px 30px;
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .btn:hover{
     cursor: grab;
     background: #1f1f1f;
     border: none;
+    color: #fff;
 }
 .lco{
     transition: box-shadow 500ms ease-in-out;
@@ -53,5 +57,7 @@ footer{
     height: 70px;
     margin-left: -8px;
     text-align: center;
-    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
