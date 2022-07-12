@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
-body{
+html{
     font-family: "Montserrat";
 /*  background: linear-gradient(45deg , #051937 0%, #A8EB12 100%);
  */ background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat:no-repeat ;
+    background-size: cover ;
     height: 100%;
+    
 }
+
 h1{
     color: #fff; 
     text-align: center;
@@ -19,7 +22,7 @@ span{
 }
 p{
     text-align: center;
-    color:darkblue;
+    color:#fff;
     font-size: 30px;
 }
 button{
@@ -32,7 +35,7 @@ button{
     border-radius: 10px;
     border: 0.1rem solid #1f1f1f;
     padding: 15px 30px;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(0, 0, 0);
 }
 .btn:hover{
